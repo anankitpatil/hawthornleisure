@@ -1,0 +1,25 @@
+<div class="large-12 columns">
+  <div class="large-6 medium-6 panel">
+    <input type="text" class="sort_input" style="margin:0;margin:5px;" value="Search Pub by Name">
+    </div>
+    <div class="panel callout columns" style="margin-bottom:0;padding: 0 20px;">
+      <h5 style="color:#FFF;">
+        <div class="large-7 medium-7 columns table_sort table_sort_active" style="line-height:48px;">Name</div>
+        <div class="large-2 medium-2 columns table_sort" style="line-height:48px;border-left:1px solid #B35900;" data="ref">Reference no.</div>
+        <div class="large-1 medium-1 columns table_sort" style="line-height:48px;border-left:1px solid #B35900;" data="post">Area</div>
+        <div class="large-2 medium-2 columns" style="line-height:48px;border-left:1px solid #B35900;">Date modified</div>
+      </h5>
+    </div>
+  </div>
+  <?php foreach ($pubs as $pub) { ?>
+  <div class="large-12 columns switch">
+    <div class="panel columns" style="border-top:0;margin:0;line-height:23px;">
+      <div class="large-5 medium-5 columns name"> <?php echo $pub->name; ?> </div>
+      <div class="large-1 medium-1 columns"> <a href="http://hawthornleisure.com/admin/pubs/ed/<?php echo $pub->id; ?>" class="small radius button" style="margin:0; padding:4px 8px;">Edit</a> </div>
+      <div class="large-1 medium-1 columns"> <a href="http://hawthornleisure.com/admin/pubs/delete_pub/<?php  echo $pub->id; ?>" class="small radius button" style="margin:0; padding:4px 8px;background:#CCC;">Delete</a> </div>
+      <div class="large-2 medium-2 columns ref" style="text-align:center;"> <?php echo $pub->reference_number; ?> </div>
+      <div class="large-1 medium-1 columns post" style="text-align:center;"> <?php echo $pub->postcode; ?> </div>
+      <div class="large-2 medium-2 columns date" style="text-align:center;"> <?php echo substr($pub->date_modified, 0, 10); ?> </div>
+    </div>
+  </div>
+  <?php } ?>

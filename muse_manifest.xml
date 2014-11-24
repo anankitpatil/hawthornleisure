@@ -1,0 +1,106 @@
+<manifest alg="2" build="6" opt="false" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1415291026275">
+  <folder name="css">
+    <file name="site_global.css" crc="251228787"/>
+    <file name="master_a-master.css" crc="242785123" ref="pubs-to-let:pubs-for-sale:index:the-hawthorn-principles:about-us:contact-us:running-your-own-pub:open-days:faq-s:applying-to-become-a-tenant:partner-training:buying-club:find-a-pub"/>
+    <file name="master_a-master_coming-soon.css" crc="4101440949" ref="open-days:applying-to-become-a-tenant"/>
+    <file name="pubs-to-let.css" crc="3891664563" ref="pubs-to-let"/>
+    <file name="iefonts_pubs-to-let.css" crc="3764409107" ref="pubs-to-let"/>
+    <file name="pubs-for-sale.css" crc="3817387472" ref="pubs-for-sale"/>
+    <file name="iefonts_pubs-for-sale.css" crc="3837208736" ref="pubs-for-sale"/>
+    <file name="index.css" crc="3870398923" ref="index"/>
+    <file name="iefonts_index.css" crc="3917689267" ref="index"/>
+    <file name="the-hawthorn-principles.css" crc="98776904" ref="the-hawthorn-principles"/>
+    <file name="iefonts_the-hawthorn-principles.css" crc="28199588" ref="the-hawthorn-principles"/>
+    <file name="about-us.css" crc="3988528938" ref="about-us"/>
+    <file name="iefonts_about-us.css" crc="372294431" ref="about-us"/>
+    <file name="contact-us.css" crc="3942516349" ref="contact-us"/>
+    <file name="iefonts_contact-us.css" crc="3783933110" ref="contact-us"/>
+    <file name="running-your-own-pub.css" crc="3875659687" ref="running-your-own-pub"/>
+    <file name="iefonts_running-your-own-pub.css" crc="401934763" ref="running-your-own-pub"/>
+    <file name="open-days.css" crc="4107222232" ref="open-days"/>
+    <file name="iefonts_open-days.css" crc="4237088844" ref="open-days"/>
+    <file name="faq-s.css" crc="4255775778" ref="faq-s"/>
+    <file name="iefonts_faq-s.css" crc="3783308727" ref="faq-s"/>
+    <file name="applying-to-become-a-tenant.css" crc="4107222232" ref="applying-to-become-a-tenant"/>
+    <file name="iefonts_applying-to-become-a-tenant.css" crc="4237088844" ref="applying-to-become-a-tenant"/>
+    <file name="partner-training.css" crc="3907369491" ref="partner-training"/>
+    <file name="iefonts_partner-training.css" crc="235800550" ref="partner-training"/>
+    <file name="buying-club.css" crc="3951295511" ref="buying-club"/>
+    <file name="iefonts_buying-club.css" crc="117717720" ref="buying-club"/>
+    <file name="find-a-pub.css" crc="233633546" ref="find-a-pub"/>
+    <file name="iefonts_find-a-pub.css" crc="4223409121" ref="find-a-pub"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4021225061" ref="index:contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles:pubs-to-let:pubs-for-sale:applying-to-become-a-tenant:faq-s:open-days:buying-club:partner-training"/>
+    <file name="museutils.js" crc="4136605575" ref="index:contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles:pubs-to-let:pubs-for-sale:applying-to-become-a-tenant:faq-s:open-days:buying-club:partner-training"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="242197875" ref="index:pubs-to-let:pubs-for-sale"/>
+    <file name="jquery.musemenu.js" crc="4009181048" ref="index:contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles:pubs-to-let:pubs-for-sale:applying-to-become-a-tenant:faq-s:open-days:buying-club:partner-training"/>
+    <file name="pie.js" crc="3827607177" ref="index:contact-us:buying-club:partner-training"/>
+    <file name="jquery.watch.js" crc="172956391" ref="index:contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles:pubs-to-let:pubs-for-sale:applying-to-become-a-tenant:faq-s:open-days:buying-club:partner-training"/>
+    <file name="webpro.js" crc="420478120" ref="index:contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles:partner-training"/>
+    <file name="musewpslideshow.js" crc="480958572" ref="index:contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles"/>
+    <file name="jquery.museoverlay.js" crc="184401257" ref="index:contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles"/>
+    <file name="touchswipe.js" crc="60020316" ref="index:contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles:pubs-to-let:pubs-for-sale:applying-to-become-a-tenant:faq-s:open-days:buying-club:partner-training"/>
+    <file name="form_check.php" crc="313295658" ref="contact-us"/>
+    <file name="form_throttle.php" crc="254134657" ref="contact-us"/>
+    <file name="form_process.php" crc="304694956" ref="contact-us"/>
+    <file name="form-u11533.php" crc="3948468706" ref="contact-us"/>
+    <file name="musewpdisclosure.js" crc="4228034700" ref="partner-training"/>
+  </folder>
+  <folder name="images">
+    <file name="hlg_logo_white.png" crc="4064172976" ref="index:contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles:pubs-to-let:pubs-for-sale:applying-to-become-a-tenant:faq-s:open-days:buying-club:partner-training"/>
+    <file name="expand.png" crc="271763753" ref="index"/>
+    <file name="slide_1-u590-fr.png" crc="192396880" ref="index"/>
+    <file name="slide_2-u1336-fr.jpg" crc="238965197" ref="index"/>
+    <file name="o-sports-bar-facebook-u1341-fr.jpg" crc="241188414" ref="index"/>
+    <file name="dreamstime_m_36601786-u1346-fr.jpg" crc="3848198667" ref="index"/>
+    <file name="chioma-04.png" crc="4136611919" ref="index"/>
+    <file name="chioma-03.png" crc="143682062" ref="index:contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles:pubs-to-let:pubs-for-sale:applying-to-become-a-tenant:faq-s:open-days:buying-club:partner-training"/>
+    <file name="slide_2-u965-fr.jpg" crc="34320137" ref="index"/>
+    <file name="o-sports-bar-facebook-u966-fr.jpg" crc="4290085262" ref="index"/>
+    <file name="dreamstime_m_36601786-u967-fr.jpg" crc="4239976508" ref="index"/>
+    <file name="pub_exterior_3.jpg" crc="4106989964" ref="contact-us:find-a-pub"/>
+    <file name="blank.gif" crc="4208392903" ref="contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles"/>
+    <file name="pl335_red lion_northmoor_1-crop-u8727.png" crc="426421941" ref="contact-us"/>
+    <file name="pub_exterior_1.jpg" crc="501486708" ref="contact-us"/>
+    <file name="loading.gif" crc="3815509949" ref="contact-us:find-a-pub:running-your-own-pub:about-us:the-hawthorn-principles"/>
+    <file name="u11543-17.png" crc="4105547380" ref="contact-us"/>
+    <file name="u11543-17-r.png" crc="4288396209" ref="contact-us"/>
+    <file name="u11543-17-m.png" crc="479126317" ref="contact-us"/>
+    <file name="u11543-17-fs.png" crc="104139000" ref="contact-us"/>
+    <file name="pub_exterior_12.jpg" crc="32103160" ref="find-a-pub"/>
+    <file name="pub_exterior_2.jpg" crc="311876765" ref="find-a-pub"/>
+    <file name="pub_exterior_4.jpg" crc="464591856" ref="find-a-pub"/>
+    <file name="dreamstime_m_20382381-crop-u8657.png" crc="344057720" ref="running-your-own-pub"/>
+    <file name="dreamstime_m_37943691-crop-u9004.png" crc="254936376" ref="running-your-own-pub"/>
+    <file name="stockxpertcom_id16954_jpg_6cebf026fa5ea7712aee69887d20333c copy-crop-u8524.png" crc="3898029266" ref="running-your-own-pub"/>
+    <file name="pint60x40.jpg" crc="4014642676" ref="about-us"/>
+    <file name="7496532464_ece98ba8a0_b copy60x41.jpg" crc="4224002948" ref="about-us"/>
+    <file name="200278041001060x45.jpg" crc="475668296" ref="about-us"/>
+    <file name="pint.jpg" crc="3888824781" ref="about-us"/>
+    <file name="7496532464_ece98ba8a0_b copy-crop-u8967.png" crc="516032156" ref="about-us"/>
+    <file name="2002780410010-crop-u8940.png" crc="4199449315" ref="about-us"/>
+    <file name="gastro-food-crop-u8599.png" crc="4048644115" ref="the-hawthorn-principles"/>
+    <file name="fishnchipsleigh170211.jpg" crc="4261918203" ref="the-hawthorn-principles"/>
+    <file name="dreamstime_m_38549591-crop-u8707.png" crc="400996966" ref="the-hawthorn-principles"/>
+    <file name="mp900422671-crop-u8608.png" crc="158380230" ref="the-hawthorn-principles"/>
+    <file name="house1-u3516-fr.jpg" crc="4139230997" ref="pubs-to-let:pubs-for-sale"/>
+    <file name="vector smart object1-02.png" crc="4265532067" ref="buying-club"/>
+    <file name="hawthorn-pelicanpage_icons.png" crc="148353884" ref="buying-club"/>
+    <file name="untitled-1.png" crc="4247665908" ref="buying-club"/>
+  </folder>
+  <file name="index.html" crc="463320348" mt="1415287480262" redirect="true"/>
+  <file name="contact-us.html" crc="4015121154" mt="1415290946043" redirect="true"/>
+  <file name="find-a-pub.html" crc="166778248" mt="1415287480263" redirect="true"/>
+  <file name="running-your-own-pub.html" crc="419035281" mt="1415287480263" redirect="true"/>
+  <file name="about-us.html" crc="104691613" mt="1415287480264" redirect="true"/>
+  <file name="the-hawthorn-principles.html" crc="3931938470" mt="1415287480265" redirect="true"/>
+  <file name="pubs-to-let.html" crc="247683670" mt="1415287480266" redirect="true"/>
+  <file name="pubs-for-sale.html" crc="4017318700" mt="1415287480266" redirect="true"/>
+  <file name="applying-to-become-a-tenant.html" crc="305109364" mt="1415287480334" redirect="true"/>
+  <file name="faq-s.html" crc="18505795" mt="1415287480267" redirect="true"/>
+  <file name="open-days.html" crc="220117977" mt="1415287480334" redirect="true"/>
+  <file name="buying-club.html" crc="4015363462" mt="1415287480284" redirect="true"/>
+  <file name="partner-training.html" crc="420591737" mt="1415287480285" redirect="true"/>
+</manifest>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hawthorn Leisure | Home</title>
+<link rel="stylesheet" href="../css/foundation.css" />
+<link rel="stylesheet" href="../css/styles.css" />
+<script src="../js/vendor/modernizr.js"></script>
+<script>
+$(document).ready(function() {
+	$('.list .show').click(function(){
+		
+		
+	});
+});
+</script>
+</head>
+<body>
+<nav class="top-bar" data-topbar>
+  <div class="wrap">
+    <ul class="title-area">
+      <li class="name"> <a href="#" class="logo"><img src="../img/logo.png"/></a> </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <!--<ul class="right">
+        <li class="active"><a href="#">Right Button Active</a></li>
+        <li class="has-dropdown"> <a href="#">Right Button Dropdown</a>
+          <ul class="dropdown">
+            <li><a href="#">First link in dropdown</a></li>
+          </ul>
+        </li>
+      </ul>-->
+
+      <!-- Left Nav Section -->
+      <ul class="left" style="padding-left:36px;">
+        <li><a href="#">Home</a></li>
+        <li class="has-dropdown"> <a href="#">About Us</a>
+          <ul class="dropdown">
+            <li><a href="#">The Hawthorn Principles</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Running your own Pub</a></li>
+        <li><a href="#">Buying Club</a></li>
+        <li><a href="#">Pubs to Let</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </section>
+  </div>
+</nav>
+<div class="start">
+  <div class="row">
+    <div class="large-12 columns">
+    	<div style="height:300px;" class="large-12 columns">
+        </div>
+        <div class="large-6 columns panel callout light">
+          <h1>Welcome to Hawthorn Leisure</h1>
+          <p>Welcome to a new world of hospitality. Where innovation meets experience. We are endeavouring to create something new and unique within the industry.</p>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="large-8 columns panel" style="margin-top:20px;">
+      <div class="large-12 columns">
+      	<input type="text" name="search" class="radius" />
+      </div>
+  </div>
+  <div class="large-4 columns" style="margin-top:20px;">
+  	  <p>Search for the Name, City, County or Postcode</p>
+  </div>
+</div>
+<div class="row">
+<?php
+	$user_name = "hawthorndatabase";
+	$password = "Va6748g2ko@";
+	$database = "hawthorndatabase";
+	$server = "hawthorndatabase.db.11710107.hostedresource.com";
+
+	$db_handle = mysql_connect($server, $user_name, $password);
+	$db_found = mysql_select_db($database, $db_handle);
+
+	if ($db_found) {
+		$SQL = "SELECT * FROM pubs";
+		$result = mysql_query($SQL);
+
+		while ( $db_field = mysql_fetch_assoc($result) ) {
+			print '<div class="large-12 columns list">';
+				print '<div class="large-2 columns">';
+					print '<img src="http://hawthornleisure.com/admin/uploads' . dirname($db_field['image_link_1']) . '/thumb/' . basename($db_field['image_link_1']) . '" />';
+				print '</div>';
+				print '<div class="large-3 columns">';
+					print '<a href="let.php?id=' . $db_field['id'] . '" class="show">' . $db_field['name'] . '</a>';
+				print '</div>';
+				print '<div class="large-4 columns">';
+					print '<p>' . $db_field['address_line_1'] . '<br />' . $db_field['address_line_2'] . '<br />' . $db_field['address_line_3'] . '</p>';
+				print '</div>';
+				print '<div class="large-3 columns">';
+					print '<p>Reference no.:' . $db_field['reference_number'] . '<br />Added on:' . $db_field['date_modified'] . '<br />Area Code:' . $db_field['postcode'] . '</p>';
+				print '</div>';
+			print '</div>';
+		}
+		mysql_close($db_handle);
+	} else {
+		print "Database NOT Found ";
+		mysql_close($db_handle);
+	}
+?>
+</div>
+</body>
+<script src="../js/foundation.min.js"></script>
+<script>
+$(document).foundation();
+</script>
+</body>
+</html>
